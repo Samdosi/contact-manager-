@@ -1,0 +1,133 @@
+body {
+  background: radial-gradient(#1602f4, #1f1013);
+}
+
+button:hover {
+  border: 2px solid #104f55;
+  background-color: rgba(365, 365, 365, 0.5);
+  cursor: pointer;
+  color: #104f55;
+  opacity: 0.8;
+  transition: 0.3s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.loginDiv {
+  font-size: 30px;
+  width: 80%;
+  margin: auto;
+  padding: 25px;
+  border: 3px solid #fff;
+  background-color: transparent;
+  display: block;
+  text-align: center;
+  height: 1150px;
+  margin-top: 75px;
+}
+
+.contact_info {
+  width: s;
+  background-color: rgb(83, 96, 171);
+  margin: auto;
+  height: 150px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+  margin-top: 20px;
+}
+.contact_info button{
+  width: 50px;
+  height: 50px;
+}
+.contact_info button .pencil{
+  width: 24px;
+  height: 24px;
+}
+.contact_info button .trash{
+  width: 24px;
+  height: 24px;
+}
+.contact_info .table_contact{
+  color:  white;
+  font-family: 'Work Sans', sans-serif;
+  text-shadow: -2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.nextPageDiv{
+  float: right;
+  margin-right: 5%;
+}
+
+.nextPage {
+  position: absolute;
+  font-size: 50px;
+  color: skyblue;
+  opacity: 1;
+  background-color: transparent;
+  border: none;
+}
+
+.logout {
+  background-color: rgb(227, 226, 237);
+  border-radius: 10px;
+  width: 100px;
+  height: 50px;
+  font: Roboto, Arial;
+  font-weight: bold;
+  margin: auto;
+}
+.logout:hover{
+  border: 2px solid #104f55;
+  background-color: rgba(365, 365, 365, 0.5);
+  cursor: pointer;
+  color: #104f55;
+  opacity: 0.8;
+  transition: 0.3s;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+.logoutButton{
+  float: left;
+}
+.addButton{
+  float: right;
+}
+.addButton {
+  font-size: 50px;
+  color: skyblue;
+  opacity: 1;
+  background-color: transparent;
+  border: none;
+  margin: auto;
+}
+
+.search_bar {
+  flex: 1;
+  height: 36px;
+  padding-left: 10px;
+  font-size: 16px;
+  font-weight: bold;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 150px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  border-radius: 5px;
+  text-align: left;
+  width: 80%;
+  font-family: Roboto, Arial;
+}
+
+p1{
+  margin-left: 70px;
+  color: white;
+  font-family: Roboto, Arial;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.searchButton{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: -5px;
+  width: 20%;
+}
